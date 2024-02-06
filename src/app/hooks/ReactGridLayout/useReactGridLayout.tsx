@@ -13,7 +13,6 @@ export interface ReactGridLayoutProps {
 export const ReactGridLayout = (props: ReactGridLayoutProps) => {
   const { col, layout, components } = props
 
-  const width = window.innerWidth
 
   return (
     <GridLayout
@@ -24,7 +23,7 @@ export const ReactGridLayout = (props: ReactGridLayoutProps) => {
       margin={[12, 12]}
       containerPadding={[0, 0]}
       rowHeight={30}
-      width={width * 0.95}
+      width={1024}
       cols={col}
       draggableCancel=".preventDrag"
     >

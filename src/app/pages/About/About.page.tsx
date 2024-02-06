@@ -6,7 +6,6 @@ import { Fade } from "react-awesome-reveal";
 import { Container } from "../../components/Container";
 
 const About: React.FC = () => {
-  const width = window.innerWidth;
   return (
     <Container bgColor={true}>
       <div
@@ -24,7 +23,7 @@ const About: React.FC = () => {
                 <Image
                   src="/perfil.jpg"
                   alt="Foto de Perfil Everton Vieira"
-                  width={width}
+                  width={500}
                   height={400}
                   quality={100}
                   className="rounded-lg h-[540px] object-cover md:object-none w-full"
