@@ -56,7 +56,7 @@ const Skills: React.FC = () => {
         {dataSkills.map((item) => (
           <Fade key={item.name} direction="up" delay={500}>
             <div
-              className={`flex flex-col items-center justify-center p-32 md:p-8 h-96 m-5 rounded-lg overflow-hidden`}
+              className={`flex flex-col items-center justify-center p-32 md:p-8 h-96 m-5 rounded-lg overflow-hidden skill-card transition-transform transform hover:scale-105`}
               style={{ backgroundColor: item.color }}
             >
               <item.icon size={48} className="text-white mb-4" />

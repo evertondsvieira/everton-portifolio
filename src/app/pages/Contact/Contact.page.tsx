@@ -44,7 +44,7 @@ const Contact: React.FC = () => {
   ];
   
   return (
-    <Container bgColor={true}> 
+    <Container> 
       <div id="Contacts" className="flex flex-col md:flex-row items-center justify-center md:justify-between w-full min-h-screen gap-8">
         <Fade direction="up" delay={500}>
           <div className="flex flex-col gap-4">
@@ -56,8 +56,6 @@ const Contact: React.FC = () => {
               Here are all my contact information, I'll be happy to talk to you.
             </p>
           </div>
-        </Fade>
-        <Fade direction="up" delay={1000}>
           <div className="flex flex-col gap-8">
             {contactData.map((item) => (
               <div
