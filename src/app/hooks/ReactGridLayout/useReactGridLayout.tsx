@@ -13,7 +13,6 @@ export interface ReactGridLayoutProps {
 export const ReactGridLayout = (props: ReactGridLayoutProps) => {
   const { col, layout, components } = props
 
-
   return (
     <GridLayout
       layout={layout}

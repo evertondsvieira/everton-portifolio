@@ -38,7 +38,7 @@ const HomePage: React.FC = () => {
             />
           </Fade>
           <Fade direction="up" delay={1100}>
-            <p className="flex flex-row gap-2 text-2xl md:text-3xl lg:text-4xl xl:text-5xl">
+            <p className="flex flex-row gap-2 text-1xl md:text-3xl lg:text-4xl xl:text-5xl">
               I{" "}
               <Fade direction="up" delay={1800}>
                 <span className="text-red-500">love</span>

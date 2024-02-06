@@ -44,11 +44,11 @@ const Contact: React.FC = () => {
   ];
   
   return (
-    <Container>
-      <div id="Contacts" className="flex flex-col md:flex-row items-center justify-between w-full min-h-screen gap-8">
+    <Container bgColor={true}> 
+      <div id="Contacts" className="flex flex-col md:flex-row items-center justify-center md:justify-between w-full min-h-screen gap-8">
         <Fade direction="up" delay={500}>
           <div className="flex flex-col gap-4">
-            <h1 className="text-4xl text-justify">
+            <h1 className="text-3xl md:text-4xl text-justify">
               Let's set up a conversation and{" "}
               <p className="text-red-500">develop our creativity</p> together?
             </h1>

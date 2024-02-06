@@ -15,7 +15,7 @@ const About: React.FC = () => {
       >
         <div className="flex flex-col md:flex-row gap-8 w-full items-center justify-center">
           <div className="flex flex-col gap-8">
-            <Fade direction="up" delay={800}>
+            <Fade direction="up" delay={600}>
               <h2 className="text-5xl font-bold text-center sm:text-start">
                 Greetings!
               </h2>
@@ -23,16 +23,17 @@ const About: React.FC = () => {
                 <Image
                   src="/perfil.jpg"
                   alt="Foto de Perfil Everton Vieira"
-                  width={500}
+                  width={0}
                   height={400}
                   quality={100}
+                  sizes="100vw"
                   className="rounded-lg h-[540px] object-cover md:object-none w-full"
                 />
                 <h1 className="text-2xl">~That's me</h1>
               </div>
             </Fade>
             <div className="flex flex-row gap-8 items-center w-full">
-              <Fade direction="up" delay={1100}>
+              <Fade direction="up" delay={1000}>
                 <div className="flex flex-col">
                   <p className="text-3xl text-justify gap-4">
                     I'm a 24-year-old Full Stack Developer with expertise in
