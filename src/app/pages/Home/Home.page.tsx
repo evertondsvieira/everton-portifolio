@@ -15,7 +15,7 @@ const HomePage: React.FC = () => {
       <div className="flex flex-col min-h-screen items-center justify-center">
         <div className="p-8 space-y-8 text-center">
           <Fade direction="up" delay={500}>
-            <h1 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-black">
+            <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-8xl text-black">
               Everton Vieira
             </h1>
           </Fade>
@@ -33,12 +33,12 @@ const HomePage: React.FC = () => {
               ]}
               wrapper="span"
               speed={50}
-              className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-black"
+              className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl xl:text-7xl text-black"
               repeat={Infinity}
             />
           </Fade>
           <Fade direction="up" delay={1100}>
-            <p className="flex flex-row gap-2 text-1xl md:text-3xl lg:text-4xl xl:text-5xl">
+            <p className="flex flex-row gap-2 text-1xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl">
               I{" "}
               <Fade direction="up" delay={1800}>
                 <span className="text-red-500">love</span>
