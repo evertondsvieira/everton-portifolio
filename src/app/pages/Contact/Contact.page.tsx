@@ -25,10 +25,10 @@ const Contact: React.FC = () => {
       iconBgColor: "bg-green-600",
     },
     {
-      title: "My email",
+      title: "My e-mail",
       description:
-        "Send me an email reporting feedbacks, suggestions and ideas",
-      action: "Call now",
+        "Send me an e-mail reporting feedbacks, suggestions and ideas",
+      action: "Send e-mail now",
       href: "mailto:vieiraeverton33@hotmail.com",
       icon: MdEmail,
       iconBgColor: "bg-orange-600",
