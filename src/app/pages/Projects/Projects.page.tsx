@@ -36,7 +36,7 @@ const HomePage: React.FC = () => {
   return (
     <Container bgColor={true}>
       <div id="Projects" className="w-full flex flex-col min-h-screen gap-8">
-        <h1 className="text-4xl">E-commerce</h1>
+        <h1 className="text-4xl font-medium">E-commerce</h1>
         <Carousel
           responsive={responsive}
           autoPlay={true}

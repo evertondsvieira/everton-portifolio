@@ -15,8 +15,8 @@ const About: React.FC = () => {
       >
         <div className="flex flex-col md:flex-row gap-8 w-full items-center justify-center">
           <div className="flex flex-col gap-8">
-            <Fade direction="up" delay={600}>
-              <h2 className="text-5xl font-bold text-center sm:text-start">
+            <Fade direction="up" delay={400}>
+              <h2 className="text-4xl font-medium text-center sm:text-start">
                 Greetings!
               </h2>
               <div className="flex flex-col gap-4">
@@ -33,9 +33,9 @@ const About: React.FC = () => {
               </div>
             </Fade>
             <div className="flex flex-row gap-8 items-center w-full">
-              <Fade direction="up" delay={1000}>
+              <Fade direction="up" delay={500}>
                 <div className="flex flex-col">
-                  <p className="text-3xl text-justify gap-4">
+                  <p className="text-2xl text-justify gap-4">
                     I'm a 24-year-old Full Stack Developer with expertise in
                     Front End and Back End development, trained at Kenzie
                     Academy. Proficient in agile methodologies like SCRUM, I've
@@ -49,9 +49,9 @@ const About: React.FC = () => {
               </Fade>
             </div>
             <div className="flex flex-row gap-8 items-center">
-              <Fade direction="up" delay={1100}>
+              <Fade direction="up" delay={500}>
                 <div className="flex flex-col gap-4">
-                  <p className="text-3xl text-justify">
+                  <p className="text-2xl text-justify">
                     My aspirations include completing college, specializing
                     further, and fostering my personal and professional growth.
                     I am a passionate learner, thriving on new challenges.
